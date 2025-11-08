@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    >
+</head>
+<body>
+    <main>
+        <h1>Registrate en nuestra Pagina</h1>
+        <h2>Comienza Aqui ⬇</h2>
+
+        <form>
+            <h3>Coloca tus datos</h3>
+            <!-- "placeholder" utilizado para poner un ejemplo en el cuadro del input -->
+            <label for="text1"><b>Nombre Completo</b></label>
+            <input type="text" placeholder="Almirano Ortega" id="text1"/>
+            <!-- Si coloco el div el orden del codigo debe juntarse para que no se vaya abajo el cuadro -->
+            <label for="text2">
+                <div><b>Correo</b><input type="email" placeholder="ejemplo123@gmail.com"></div>
+            </label>
+            <!-- Randonly value para que solo se pueda leer el cuadro mas no editar -->
+            <label for="text2">
+                Input (Solo Lectura)
+                <input type="text" placeholder="Input Solo Lectura" readonly value="Solo leeme bro">
+            </label>
+            <!-- disabled para desactivar el cuadro -->
+            <label><div>
+                Input (Desactivado)
+                <input type="text" placeholder="Input de Desactivado" disabled></div>
+            </label>
+            <!-- el typy number para colocar solo numeros -->
+            <label>
+                <div>
+                    Numeros
+                    <input type="number" placeholder="ejm 18" min="18" max="65">
+                </div>               
+            </label>
+            <!-- password solo contraseña -->
+            <label>
+                <div>
+                    Contraseña
+                    <input type="password" placeholder="***************">
+                </div>               
+            </label>
+
+            <label>
+                <div>
+                    <b>Celular</b>
+                    <input type="tel" placeholder="+51 123 456 789">
+                </div>               
+            </label>
+        </form>
+    </main>
+</body>
+</html>

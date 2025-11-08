@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tablas</title>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+>
+</head>
+<body>
+  <main>
+    <h2>Tablas</h2>
+
+    <h3>Tabla básica</h3>
+  
+    <table border>
+      <!-- border para hacer los bordes de la tabla -->
+      <tr>
+        <th># Fila 1, Celda 1</th>
+        <th># Fila 1, Celda 2</th>
+        <th># Fila 1, Celda 3</th>
+      </tr>
+      <tr>
+        <td># Fila 2, Celda 1</td>
+        <td># Fila 2, Celda 2</td>
+        <td># Fila 2, Celda 3</td>
+      </tr>
+      <tr>
+        <td># Fila 3, Celda 1</td>
+        <td># Fila 3, Celda 2</td>
+        <td># Fila 3, Celda 3</td>
+      </tr>
+    </table>
+
+    <h3>Tablas semánticas</h3>
+
+    <table border>
+      <thead>
+        <tr>
+          <th># Fila 1, Celda 1</th>
+          <th># Fila 1, Celda 2</th>
+          <th># Fila 1, Celda 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td># Fila 2, Celda 1</td>
+          <td># Fila 2, Celda 2</td>
+          <td># Fila 2, Celda 3</td>
+        </tr>
+        <tr>
+          <td># Fila 3, Celda 1</td>
+          <td># Fila 3, Celda 2</td>
+          <td># Fila 3, Celda 3</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td># Fila 4, Celda 1</td>
+          <td># Fila 4, Celda 2</td>
+          <td># Fila 4, Celda 3</td>
+        </tr>
+        <tr>
+          <td colspan="2">TOTAL</td>
+          <td>S/ 999.55</td>
+        </tr>
+        <tr>
+          <!-- colspan para poder llenar espacio en tabla en horizontal -->
+          <td colspan="2">Fila a, Celda 1</td> 
+          <td rowspan="2">Fila b, Celda 2</td>
+          <!-- rowspan para poder llenar espacio en vertical -->
+        </tr>
+        <tr>
+          <td colspan="2">Fila c, Celda 3</td>
+        </tr>
+      </tfoot>
+    </table>
+  </main>
+</body>
+</html>

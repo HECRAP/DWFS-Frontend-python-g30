@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<htestreng="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGINA PERSONAL</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+>
+</head>
+<body>
+    <!-- Crear pagina personal con lo aprendido : ETIQUETA, FORMULARIO, TABLAS, ENLACES. USAR 
+    ETIQUETAS SEMANTICA -->
+    <header>
+        <h1>Mi Informacion Personal🌟</h1>
+    </header>
+
+    <main>
+        <h2>Sobre mi😁</h2>
+
+        <Label>
+            <img src="foto.jpeg" width="150">
+        </Label>
+
+        <label>
+            Mi Nombre
+            <input type="text" placeholder="Hector Ecos" readonly>      
+        </label>
+
+        <label>
+            Edad
+            <input type="number" placeholder="22" readonly>
+        </label>
+
+        <label>
+            Correo
+            <input type="email" placeholder="anthontsogo@gmail.com" readonly>
+        </label>
+
+        <label>
+            Celular
+            <b><input type="number" placeholder="997861754"readonly></b>
+        </label>
+
+        
+        <label>
+            <!-- <a href="https://www.instagram.com/h.a.e.s_03/" target="_blank" > <b>Instagram</b></a> -->
+            <a href="https://www.instagram.com/h.a.e.s_03/" target="_blank"><img src="ig.png" width="50" alt="Instagram"></a>
+            <!-- Hacer que el "img" vaya dentro del "a" hace que la imagen puesta se convierta en clickeable -->
+            <a href="http://wa.me/51997861754" target="_blank"><img src="wstp.webp" width="50" alt="wstp"></a>
+        </label>
+        <br>
+        <form>
+            <h2>Hobbies</h2>
+
+            <label>
+                En mis tiempos libres:
+                <textarea placeholder="Jugar videojuegos - Jugar Basketball - Aprender Cosas Nuevas" cols="3" rows="1"></textarea>
+            </label>
+        </form>
+
+        <table border="">
+            <tr>
+                Habilidades
+                <td>C#</td>
+                <td>⭐⭐⭐⭐</td>              
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>⭐</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>💀💀💀</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>💀💀💀💀</td>
+            </tr>
+        </table>  
+    </main>
+
+    <main>
+        <h2>Mis Estudios</h2>
+
+        <table border>
+            <tr>
+                <td>Estudio</td>
+                <td>Progreso</td>
+            </tr>
+            <tr>
+                <td>Diseño de videojuegos</td>
+                <!-- uso style dentro del td para configurar varias cosas como el color de la celda etc -->
+                <td style="background-color: green; color: white;">Concluido</td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
