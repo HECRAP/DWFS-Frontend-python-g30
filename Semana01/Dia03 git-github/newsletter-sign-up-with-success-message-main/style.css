@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-*.Checks{
+*{
+    /* padding para configurar la distancia del texto de los bordes */
+    margin: 0px;
+    padding: 3px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Checks{
     display: flex;
     align-items: center;
     gap: 10px;
@@ -16,4 +24,65 @@
 
 .boton {
     margin-top: 15px;
+    background-color: hsl(234, 29%, 20%);
+    width: 100%;
+    height: 70px;
+    font-size: 18px;
 }
+
+.boton h3 {
+    color: white;
+}
+
+body{
+    background-color:  hsl(235, 18%, 26%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.cuadro {
+    background-color: white; /* Fondo blanco */
+    border-radius: 20px; /* Esquinas redondeadas */
+    padding: 27px; /* Espacio interior */
+    max-width: 800px;
+    width: 90%;
+    margin: 20px auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ContenidoTexto {
+    padding: 0px;
+    flex: 1;
+    max-width: 50%;
+    font-size: 17px;
+}
+
+.ContenidoTexto h1 {
+    color: hsl(234, 29%, 20%);
+    font-size: 50px;
+}
+
+.ContenidoImg img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.input-email{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    height: 70px;
+}
+
+
