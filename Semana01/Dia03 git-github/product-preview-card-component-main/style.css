@@ -31,27 +31,25 @@ body{
 }
 
 .precios-contenedor {
-    /* Esto hace que los elementos hijos (h1 y p) se alineen en fila */
+    /* display flex hace que se junten en linea */
     display: flex;
-    /* Opcional: Esto centra los elementos verticalmente (si tuvieran alturas diferentes) */
+    /* "center" centra eñementos */
     align-items: center; 
-    /* Opcional: Agrega un pequeño espacio entre ellos si están muy pegados */
+    /* "gap" agrega espacio pequeño */
     gap: 0px; 
 }
 
 .precios-contenedor h1 {
-    /* Cambia el color del texto a un color llamativo */
+    /* Cambia el color del texto a un color */
     color: green; 
-    /* Opcional: Aumenta un poco el tamaño de la fuente */
+    /* font-size aumenta el tamaño de la fuente */
     font-size: 2em;
 }
 
 .main-container {
-    /* Muestra los hijos en una línea horizontal */
     display: flex; 
-    /* Agrega un espacio entre los dos contenedores */
     gap: 0px; 
-    /* Opcional: Centra el conjunto de tarjetas en la pantalla */
+    /* centra las tarjetas en la pantalla */
     justify-content: center; 
 }
 
