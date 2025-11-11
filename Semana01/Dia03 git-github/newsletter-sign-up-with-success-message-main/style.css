@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*.Checks{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Email {
+    display: block;
+}
+
+.input-email{
+    margin-top: 12px;
+}
+
+.boton {
+    margin-top: 15px;
+}

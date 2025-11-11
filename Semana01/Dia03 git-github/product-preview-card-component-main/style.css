@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    /* padding para configurar la distancia del texto de los bordes */
+    margin: 0px;
+    padding: 8px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+    min-height: 340px;
+        
+}
+
+.precios-contenedor {
+    /* Esto hace que los elementos hijos (h1 y p) se alineen en fila */
+    display: flex;
+    /* Opcional: Esto centra los elementos verticalmente (si tuvieran alturas diferentes) */
+    align-items: center; 
+    /* Opcional: Agrega un pequeño espacio entre ellos si están muy pegados */
+    gap: 0px; 
+}
+
+.precios-contenedor h1 {
+    /* Cambia el color del texto a un color llamativo */
+    color: green; 
+    /* Opcional: Aumenta un poco el tamaño de la fuente */
+    font-size: 2em;
+}
+
+.main-container {
+    /* Muestra los hijos en una línea horizontal */
+    display: flex; 
+    /* Agrega un espacio entre los dos contenedores */
+    gap: 0px; 
+    /* Opcional: Centra el conjunto de tarjetas en la pantalla */
+    justify-content: center; 
+}
+
+.boton{
+    background-color: #008000;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+
+}
