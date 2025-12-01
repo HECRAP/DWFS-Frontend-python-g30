@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <!-- TODO: Terminar la maquetación con HTML de los siguientes textos -->
+  <main class="contact-form">
+    <h1>Contact Us</h1>
+
+    <form>
+      <label>
+        First Name <span class="required">*</span>
+
+        <input type="text" name="first_name" />
+      </label>
+
+      <label>
+        Last Name <span class="required">*</span>
+
+        <input type="text" name="last_name" />
+      </label>
+
+      <label>
+        Email Address <span class="required">*</span>
+
+        <input type="email" name="email" />
+      </label>
+
+      <div>
+        Query Type <span class="required">*</span>
+
+        <div>
+          <label>
+            <input type="radio" name="query_type" />
+
+            General Enquiry
+          </label>
+          <label>
+            <input type="radio" name="query_type" />
+            
+            Support Request
+          </label>
+        </div>
+      </div>
+
+      <label>
+        Message <span class="required">*</span>
+
+        <textarea type="text" name="message"></textarea>
+      </label>
+
+      <label>
+        <input type="checkbox" name="consent" />
+
+        I consent to being contacted by the team
+      </label>
+
+      <input type="submit" value="Submit" />
+    </form>
+  </main>
+</body>
+</html>

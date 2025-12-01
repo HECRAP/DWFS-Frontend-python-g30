@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modelo de caja</title>
+  <style>
+    .box {
+      background-color: coral;
+
+      width: 200px;
+      height: 50px;
+
+      border: 5px solid red;
+      padding: 10px; /* Espacio interno, entre el contenido y el borde */
+      margin: 10px; /* Espacio externo, después del border */
+
+      /* box-sizing: content-box; */
+      box-sizing: border-box;
+    }
+
+    .bloque {
+      background-color: lightcoral;
+      display: block;  /* Valor por defecto */
+    }
+    .enlinea {
+      background-color: lightgreen;
+      display: inline; /* Valor por defecto */
+    }
+    .enlinea-bloque {
+      background-color: lightpink;
+      display: block; /* Valor por defecto del div */
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">Modelo de caja</div>
+
+  <!-- tipos de cajas -->
+
+  <div class="bloque">BLOQUE</div>
+  <span class="enlinea">ENLINEA</span>
+  <div class="enlinea-bloque">ENLINEA Y BLOQUE</div>
+
+</body>
+</html>
