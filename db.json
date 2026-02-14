@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Cama para Perros",
+      "price": "45",
+      "category": "Perros",
+      "image": "https://oechsle.vteximg.com.br/arquivos/ids/17115788/imageUrl_1.jpg?v=638395231779500000"
+    },
+    {
+      "id": "1770903142098",
+      "name": "Canbo Adulto Raza Mediana 15 KG",
+      "price": "220",
+      "category": "Perros",
+      "image": "https://mascotify.pe/wp-content/uploads/2021/06/Canbo-Adultos-de-razas-medianas-y-grandes.png"
+    }
+  ]
+}
